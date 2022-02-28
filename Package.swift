@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "BluetoothKit",
             dependencies: [],
-			path: "Sources"),
+			path: "Source"),
         .testTarget(
             name: "BluetoothKitTests",
             dependencies: ["BluetoothKit"]),
